@@ -36,14 +36,4 @@ pipeline {
             }
         }
     }
-
-    post {
-        always {
-            script {
-                // Clean up by removing the Docker image if needed
-                // Uncomment the following line if you want to remove the image after running the container
-                // bat 'docker rmi %DOCKER_IMAGE%'
-            }
-        }
-    }
 }
