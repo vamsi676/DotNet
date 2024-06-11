@@ -21,8 +21,3 @@ docker run --name webgoat -it -p 9000:9000 -d appsecco/owasp-webgoat-dot-net
 ![Setup WebGoat.NET](images/webgoat-setup.png)
 
 * Now you all set to use the `OWASP WebGoat.NET` application 
-
-
-## Thanks
-
-Please feel free to make a pull request or tweet to me [@madhuakula](https://twitter.com/madhuakula) for improvements and suggestions.
